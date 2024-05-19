@@ -1,0 +1,22 @@
+name = "hono-htmx-todo"
+compatibility_date = "2023-12-01"
+
+# [vars]
+# MY_VAR = "my-variable"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "todo"
+database_id = "1892ff42-2718-4c4a-a1e8-ddcb87832b3d"
+preview_database_id = "local-todo"
+
+# [ai]
+# binding = "AI"
